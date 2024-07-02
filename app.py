@@ -1,5 +1,7 @@
 from flask import Flask, request, jsonify, render_template
 import boto3
+from templates import *
+
 
 app = Flask(__name__)
 
